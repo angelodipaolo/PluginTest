@@ -1,0 +1,11 @@
+framework module Registry {
+  umbrella header "Registry.h"
+
+  export *
+  module * { export * }
+}
+
+module Registry.Swift {
+    header "Registry-Swift.h"
+    requires objc
+}
